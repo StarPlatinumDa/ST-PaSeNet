@@ -6,6 +6,7 @@ This is the official implementation of our work ST-PaSeNet.
 | -------- | ------- | ------- | -------- |
 | DST-HCN | 2.93M | 88.8 | 90.7 |
 | STFD-Net | 4.3M | 89.3 | 90.9 |
+| MV-TSHL | - | 89.4 | 90.8 |
 | MSS-GCN | 7.0M | 88.9   | 90.6 |
 | ST-PaSeNet | 2.5M(1.9M) | 89.4 | 90.9    |
 

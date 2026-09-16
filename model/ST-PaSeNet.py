@@ -2,7 +2,7 @@
 
 # import numpy as np
 # import torch
-# import torch.nn as nn
+# import torch.nn as nn 
 # from torch.autograd import Variable
 # import clip
 # from Text_Prompt import *

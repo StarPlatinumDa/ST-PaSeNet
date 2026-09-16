@@ -117,4 +117,4 @@
  whisper
  exchange things
  support somebody
- rock-paper-scissors
+ rock-paper-scissors 

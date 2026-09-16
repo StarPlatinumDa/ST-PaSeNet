@@ -4,7 +4,7 @@ work_dir: ./work_dir/ntu60/xsub/hyperformer_joint
 feeder: feeders.feeder_ntu.Feeder
 train_feeder_args:
   data_path: data/ntu60/NTU60_CS.npz
-  split: train
+  split: train 
   debug: False
   random_choose: False
   random_shift: False

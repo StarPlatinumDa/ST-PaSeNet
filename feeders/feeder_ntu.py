@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 from feeders import tools
 
 
-class Feeder(Dataset):
+class Feeder(Dataset): 
     def __init__(self, data_path, label_path=None, p_interval=1, split='train', random_choose=False, random_shift=False,
                  random_move=False, random_rot=False, window_size=-1, normalization=False, debug=False, use_mmap=False,
                  bone=False, vel=False):

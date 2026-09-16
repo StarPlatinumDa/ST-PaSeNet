@@ -1,7 +1,7 @@
 # Hyperformer
 This is the official implementation of our work ST-PaSeNet.
 
-## Excellent Efficiency Joint Only
+## Excellent Efficiency(Joint Modality Only)
 | Model | Parameters | NTU 60 | NTU 120 |
 | -------- | ------- | ------- | -------- |
 | DST-HCN | 2.93M | 88.8 | 90.7 |

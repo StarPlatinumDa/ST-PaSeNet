@@ -176,7 +176,7 @@ def load(name: str, device: Union[str, torch.device] = "cuda" if torch.cuda.is_a
                 graphs = []
 
             if hasattr(module, "forward1"):
-                graphs.append(module.forward1.graph)
+                graphs.append(module.forward1.graph) 
 
             for graph in graphs:
                 for node in graph.findAllNodes("aten::to"):

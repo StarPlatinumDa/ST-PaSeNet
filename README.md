@@ -4,11 +4,11 @@ This is the official implementation of our work ST-PaSeNet.
 ## Excellent Efficiency(Joint Modality Only)
 | Model | Parameters | NTU 60 | NTU 120 |
 | -------- | ------- | ------- | -------- |
-| DST-HCN | 2.93M | 88.8 | 90.7 |
-| STFD-Net | 4.3M | 89.3 | 90.9 |
-| MV-TSHL | - | 89.4 | 90.8 |
-| MSS-GCN | 7.0M | 88.9   | 90.6 |
-| ST-PaSeNet | 2.5M(1.9M) | 89.4 | 90.9    |
+| DST-HCN | 2.93M |  90.7 |88.8 |
+| STFD-Net | 4.3M |  90.9 |89.3 |
+| MV-TSHL | - |  90.8 |89.4 |
+| MSS-GCN | 7.0M |  90.6 |88.9   |
+| ST-PaSeNet | 2.5M(1.9M) |  90.8    |89.5 |
 
 ## Network Architechture
 <p align="center">

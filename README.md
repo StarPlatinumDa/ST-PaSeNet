@@ -1,4 +1,4 @@
-# Hyperformer
+# ST-PaSeNet
 This is the official implementation of our work ST-PaSeNet.
 
 ## Excellent Efficiency(Joint Modality Only)
@@ -95,15 +95,6 @@ Put downloaded data into the following directory structure:
  python seq_transformation.py
 ```
 
-# Evaluation
-
-We provide the [pretrained model weights](https://github.com/ZhouYuxuanYX/Hyperformer/releases/download/pretrained_weights/hyperformer_pretrained_weights.zip) for NTURGB+D 60 and NTURGB+D 120 benchmarks.
-
-To use the pretrained weights for evaluation, please run the following command:
-
-```
-bash evaluate.sh
-```
 
 # Training & Testing
 

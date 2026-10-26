@@ -17,7 +17,7 @@ This is the official implementation of our work ST-PaSeNet.
 | MSS-GCN                 | TCSVT 2024          | 7.0M       | 88.9                   | 90.6                   |
 | MV-TSHL                 | TIP 2024            | -          | 89.4                   | 90.8                   |
 | ST-PaSeNet (Joint Only) | -                   | 2.5M(1.9M) | 86.3                   | 87.6                   |
-| ST-PaSeNet              | -                   | 2.5M(1.9M) | **89.4**               | **90.9**               |
+| ST-PaSeNet              | -                   | 2.5M(1.9M) | **89.5**               | **91.0**               |
 
 ## Network Architechture
 <p align="center">

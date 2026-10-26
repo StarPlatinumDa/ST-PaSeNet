@@ -1,14 +1,23 @@
 # ST-PaSeNet
 This is the official implementation of our work ST-PaSeNet.
 
-## Excellent Efficiency(Joint Modality Only)
-| Model | Parameters | NTU 60 | NTU 120 |
-| -------- | ------- | ------- | -------- |
-| DST-HCN | 2.93M |  90.7 |88.8 |
-| STFD-Net | 4.3M |  90.9 |89.3 |
-| MV-TSHL | - |  90.8 |89.4 |
-| MSS-GCN | 7.0M |  90.6 |88.9   |
-| ST-PaSeNet | 2.5M(1.9M) |  90.8    |89.5 |
+## Excellent Efficiency(On NTU RGB+D 120)
+| Methods                 | Publication         | Parameters | NTU RGB+D 120 X-Sub(%) | NTU RGB+D 120 X-Set(%) |
+| :---------------------- | :------------------ | :--------- | :--------------------- | :--------------------- |
+| CTR-GCN                 | ICCV 2021           | 1.6M       | 88.9                   | 90.4                   |
+| MST-GCN                 | AAAI 2021           | 12.0M      | 87.5                   | 88.8                   |
+| EfficientGCN-B4         | TPAMI 2022          | 1.1M       | 88.7                   | 88.9                   |
+| Info-GCN                | CVPR 2022           | -          | 89.4                   | 90.7                   |
+| TA-CNN                  | AAAI 2022           | 0.53M      | 85.4                   | 88.8                   |
+| DD-GCN                  | ICME 2023           | -          | 88.9                   | 90.2                   |
+| DST-HCN                 | ICME 2023           | 2.93M      | 88.8                   | 90.7                   |
+| STDM-transformer        | Neurocomputing 2024 | -          | 88.9                   | 86.8                   |
+| STFD-Net                | TCSVT 2024          | 4.3M       | 89.3                   | 90.9                   |
+| IDGAN                   | Neurocomputing 2024 | -          | 88.9                   | 90.6                   |
+| MSS-GCN                 | TCSVT 2024          | 7.0M       | 88.9                   | 90.6                   |
+| MV-TSHL                 | TIP 2024            | -          | 89.4                   | 90.8                   |
+| ST-PaSeNet (Joint Only) | -                   | 2.5M(1.9M) | 86.3                   | 87.6                   |
+| ST-PaSeNet              | -                   | 2.5M(1.9M) | **89.4**               | **90.9**               |
 
 ## Network Architechture
 <p align="center">
